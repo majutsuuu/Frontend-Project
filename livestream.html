@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+ <html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" type="image/png" href="images/iconsite.jpg">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class = "navigation-container">
+                <div class = "top-head">
+                    <div class = "web-name">
+                        <h1>GGaming News</h1>
+                    </div>
+
+                    <div class = "ham-btn">
+                        <span>
+                            <i class = "fas fa-bars"></i>
+                        </span>
+                    </div>
+
+                    <div class = "times-btn">
+                        <span>
+                            <i class = "fas fa-times"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class = "nav-bar" id = "nav-bar">
+                    <nav>
+                        <ul>
+                            <li><a href=http://127.0.0.1:5500/project/index.html>news</a></li>
+                            <li><a href="https://www.pcgamer.com/uk/reviews/" target="_blank">reviews</a></li>
+                            <li><a href="http://127.0.0.1:5500/project/hardware.html">hardware</a></li>
+                            <li><a href=http://127.0.0.1:5500/project/livestream.html>Livestreams</a></li>
+                            <li><a href=https://www.pcgamer.com/uk/best-of/ target="_blank">Best Of </a></li>
+                            
+                            
+                        </ul>
+                    </nav>
+                </div>
+                <div class = "social-icons">
+                    <ul>
+                        <li>
+                            <a href=https://www.facebook.com/pcgamermagazine target="_blank"><i class = "fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href=https://twitter.com/pcgamer target="_blank"><i class = "fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href=https://www.instagram.com/pcgamer_mag/ target="_blank"><i class = "fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href=https://www.youtube.com/c/pcgamer target="_blank"><i class = "fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <body>
+            <div id="twitch-embed"></div>
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+            <script type="text/javascript">
+              new Twitch.Embed("twitch-embed", {
+                width: 1500,
+                height: 800,
+                channel: "pcgamer",
+                parent: ["embed.example.com", "othersite.example.com"]
+              });
+            </script>
+          </body>
